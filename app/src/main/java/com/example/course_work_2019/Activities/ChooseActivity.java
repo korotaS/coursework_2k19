@@ -40,7 +40,6 @@ public class ChooseActivity extends AppCompatActivity {
         but3 = findViewById(R.id.button_pers_page);
 
         float scale = 0.09765625f;
-
         Drawable find = getResources().getDrawable(R.drawable.search);
         find.setBounds(0, 0, (int)(find.getIntrinsicWidth()*scale),
                 (int)(find.getIntrinsicHeight()*scale));

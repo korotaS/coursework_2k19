@@ -15,11 +15,11 @@
     <string name="off_contacts">Контакты</string>
     <string name="off_pers_name">Имя</string>
     <string name="hint_pers_name">Саня Пушкин</string>
-    <string name="hint_name">Мобильный телефон</string>
+    <string name="hint_name">Продукт/услуга</string>
     <string name="hint_city">Москва</string>
     <string name="hint_phone">+79991234567</string>
     <string name="hint_soc">https://vk.com/id0/</string>
-    <string name="hint_desc">Совсем новый мобильный телефон, ни разу не был использован.</string>
+    <string name="hint_desc">Подробное описание продукта/услуги</string>
     <string name="off_photo_text">Выберите, пожалуйста, не более 5 фотографий, которые
         наиболее полно описывали бы то, что вы хотите предложить.\n
         Первая фотография будет отображаться в списке предложений,
