@@ -3,7 +3,6 @@
     <string name="app_name1">Ищу и предлагаю</string>
     <string name="find_button">Все предложения</string>
     <string name="offer_button">Мое предложение</string>
-    <string name="offer_question">Что вы хотите предложить?</string>
     <!--strings for offer -->
     <string name="off_category">Категория</string>
     <string name="off_soc">Ссылка на соцсети</string>
