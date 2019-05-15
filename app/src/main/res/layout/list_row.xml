@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/show_relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/list_row_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/list_row_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_row_cat"
+        android:layout_marginTop="7dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/list_row_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/find_image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/find_image1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_row_name"
+        android:layout_marginTop="7dp"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/off_img_desc" />
+
+</RelativeLayout>

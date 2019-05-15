@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.course_work_2019">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.example.course_work_2019.Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.course_work_2019.Activities.FindActivity" />
+        <activity android:name="com.example.course_work_2019.Activities.OfferActivity" />
+        <activity android:name="com.example.course_work_2019.Activities.ChooseActivity" />
+        <activity android:name="com.example.course_work_2019.Activities.RegisterActivity" />
+        <activity android:name="com.example.course_work_2019.Activities.ShowOfferActivity" />
+        <activity android:name="com.example.course_work_2019.Activities.AdminActivity" />
+        <activity android:name="com.example.course_work_2019.Activities.PersPageActivity" />
+        <activity android:name="com.example.course_work_2019.Activities.ResetPasswordActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFF">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/email"
+            android:id="@+id/edit_email" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/edit_password"
+            android:hint="@string/password" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_res_1"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+    <Button
+        android:text="@string/register"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/reg_button"
+        android:background="@drawable/button_res_2"
+        android:textColor="@color/colorBasic"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:text="@string/forgot_password"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/pas_button"
+        android:textColor="@color/colorBasic"
+        android:background="@drawable/button_res_3"
+        android:layout_marginBottom="10dp"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+
+</LinearLayout>

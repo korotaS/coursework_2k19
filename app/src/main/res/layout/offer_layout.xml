@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/lin_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="#FFF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/off_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/off_category"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:spinnerMode="dialog"
+                android:layout_marginTop="10dp"
+                android:id="@+id/off_cat_spinner" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_find"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/radio_find"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:id="@+id/radio_offer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_offer"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/off_name"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/off_name"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/off_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symb_left_1"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_name_lay"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/hint_name"
+                    android:maxLength="50"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/off_desc"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/off_description"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/off_test2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symb_left_2"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_desc_lay"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:hint="@string/hint_desc"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/input_desc" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/off_photos"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/off_photos"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/off_img_desc"
+                android:id="@+id/off_image1"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/off_img_desc"
+                android:id="@+id/off_image2"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/off_img_desc"
+                android:id="@+id/off_image3"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/off_img_desc"
+                android:id="@+id/off_image4"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/off_img_desc"
+                android:id="@+id/off_image5"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/button_res_2"
+                android:textColor="@color/colorBasic"
+                android:text="@string/off_photo_button"
+                android:id="@+id/off_photo_button" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/off_photo_text"
+                android:id="@+id/off_text_photo" />
+
+            <TextView
+                android:id="@+id/off_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/off_contacts"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/off_city"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/off_city"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_city_lay"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/hint_city"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:id="@+id/input_city" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/off_pers_name"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/off_pers_name"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_pers_name_lay"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:id="@+id/input_pers_name" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/off_phone"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/off_phone"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_phone_lay"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="phone"
+                    android:maxLength="12"
+                    android:singleLine="true"
+                    android:id="@+id/input_phone" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/off_soc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/off_soc"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_soc_lay"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:singleLine="true"
+                    android:id="@+id/input_soc" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_res_1"
+                android:textColor="#FFF"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/off_final_button"
+                android:id="@+id/off_final_button" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

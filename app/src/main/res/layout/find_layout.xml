@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/find_relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <ListView
+        android:id="@+id/find_list_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/text_null"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/text_null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/find_offer"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/find_spinner"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toEndOf="@id/find_cat"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:id="@+id/find_spinner2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:spinnerMode="dialog"
+        android:layout_below="@id/find_spinner"
+        android:layout_alignParentEnd="true"
+         />
+
+    <TextView
+        android:id="@+id/find_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/find_spinner"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/find_cat"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/find_offer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/find_offer"
+        android:textColor="@color/colorBlack"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/find_spinner2"
+        android:layout_below="@id/find_spinner"
+        android:textSize="16sp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">course_work_2019</string>
+    <string name="app_name1">Ищу и предлагаю</string>
+    <string name="find_button">Все предложения</string>
+    <string name="offer_button">Мое предложение</string>
+    <string name="offer_question">Что вы хотите предложить?</string>
+    <!--strings for offer -->
+    <string name="off_category">Категория</string>
+    <string name="off_soc">Ссылка на соцсети</string>
+    <string name="off_phone">Номер телефона</string>
+    <string name="off_name">Название</string>
+    <string name="off_description">Описание</string>
+    <string name="off_photos">Фотографии</string>
+    <string name="off_photo_button">Загрузить фотографии</string>
+    <string name="off_city">Город</string>
+    <string name="off_contacts">Контакты</string>
+    <string name="off_pers_name">Имя</string>
+    <string name="hint_pers_name">Саня Пушкин</string>
+    <string name="hint_name">Мобильный телефон</string>
+    <string name="hint_city">Москва</string>
+    <string name="hint_phone">+79991234567</string>
+    <string name="hint_soc">https://vk.com/id0/</string>
+    <string name="hint_desc">Совсем новый мобильный телефон, ни разу не был использован.</string>
+    <string name="off_photo_text">Выберите, пожалуйста, не более 5 фотографий, которые
+        наиболее полно описывали бы то, что вы хотите предложить.\n
+        Первая фотография будет отображаться в списке предложений,
+        поэтому следует первой вставлять основную фотографию.\n
+        После загрузки фотографий, вы можете удалить их простым нажатием на них. </string>
+    <string name="off_final_button">Ищу!</string>
+    <string name="show_offer_button">Опубликовать!</string>
+    <string name="off_img_desc">Какая-то фотка</string>
+    <string name="show_off_name">Название:</string>
+    <string name="show_off_cat">Категория:</string>
+    <string name="show_test">Осталось символов: %1$d</string>
+    <string name="show_off_phone">Телефон:</string>
+    <string name="show_off_city">Город:</string>
+    <string name="show_off_soc">Ссылка:</string>
+    <string name="pers_page_name">Имя: %1$s</string>
+    <string name="pers_page_phone">Телефон: %1$s</string>
+    <string name="pers_page_link">Ссылка: %1$s</string>
+    <string name="show_off_pers_name">Имя:</string>
+    <string name="show_off_desc">Описание:</string>
+    <string name="show_off_email">E-mail: \n%1$s</string>
+    <string name="password">Пароль</string>
+    <string name="email">E-mail</string>
+    <string name="new_email">Новый E-mail</string>
+    <string name="login">Войти</string>
+    <string name="hint_link">Ссылка на соцсеть</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="instruction">Чтобы восстановить пароль, введите свой email, нажмите на кнопку и следуйте инструкциям в письме.</string>
+    <string name="reset_password">Сбросить пароль</string>
+    <string name="my_data">Мои данные</string>
+    <string name="change_data">Изменить данные</string>
+    <string name="change_email">Изменить e-mail</string>
+    <string name="sign_out">Выйти из аккаунта</string>
+    <string name="find_cat">Категория:</string>
+    <string name="symb_left_1">Осталось символов: 32</string>
+    <string name="symb_left_2">Осталось символов: 200</string>
+    <string name="lll"><a href="http://www.google.com">Google</a></string>
+    <string name="delete_offer">Удалить</string>
+    <string name="menu_1">Все предложения</string>
+    <string name="menu_2">Мои предложения</string>
+    <string name="menu_3">Мои опубликованные</string>
+    <string name="menu_4">Мои неопубликованные</string>
+    <string name="radio_find">Ищу</string>
+    <string name="radio_offer">Предлагаю</string>
+    <string name="find_offer">Ищу/предлагаю:</string>
+
+</resources>

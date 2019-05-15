@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reset_password_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+
+    <Button
+        android:id="@+id/button_find"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_res_1"
+        android:text="@string/find_button"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/button_offer"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_res_1"
+        android:text="@string/offer_button"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/button_pers_page"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_res_1"
+        android:text="@string/my_data"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>
